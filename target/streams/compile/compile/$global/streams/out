@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DIOP028957\IdeaProjects\ingestionsPe\src\main\scala\Main.scala:21:35: reference to multiSim is ambiguous;[0m
+[0m[[0m[31merror[0m] [0m[0mit is imported twice in the same scope by[0m
+[0m[[0m[31merror[0m] [0m[0mimport fonctions.Constants.{actif4g, deplafonementOm, maxit, subscribersOm, writeActif4g, writeDeplafonementOm, writeMaxit, writeSubscribersOm, multiSim, writeMultiSim}[0m
+[0m[[0m[31merror[0m] [0m[0mand import fonctions.Utils.{baseEventMaxit, parcActif4g, reportingVenteDeplafonnementOm, reportingVenteSubscribersOm, multiSim}[0m
+[0m[[0m[31merror[0m] [0m[0m    val df_multi_sim            = multiSim                      (   multiSim                        )[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\DIOP028957\IdeaProjects\ingestionsPe\src\main\scala\Main.scala:21:69: reference to multiSim is ambiguous;[0m
+[0m[[0m[31merror[0m] [0m[0mit is imported twice in the same scope by[0m
+[0m[[0m[31merror[0m] [0m[0mimport fonctions.Constants.{actif4g, deplafonementOm, maxit, subscribersOm, writeActif4g, writeDeplafonementOm, writeMaxit, writeSubscribersOm, multiSim, writeMultiSim}[0m
+[0m[[0m[31merror[0m] [0m[0mand import fonctions.Utils.{baseEventMaxit, parcActif4g, reportingVenteDeplafonnementOm, reportingVenteSubscribersOm, multiSim}[0m
+[0m[[0m[31merror[0m] [0m[0m    val df_multi_sim            = multiSim                      (   multiSim                        )[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
