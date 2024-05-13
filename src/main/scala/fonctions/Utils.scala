@@ -74,4 +74,17 @@ object Utils {
             .drop("top_appel")
     }
 
+
+    def subscribersFull(table: String, year: String, month: String): DataFrame = {
+      spark.sql(
+        s"""
+          |SELECT
+          |     msisdn,
+          |     user_grade_name
+          |FROM $table
+          |WHERE year = "$year" AND month = "$month" AND account_status IN ('Y', 'S')
+          |
+        """.stripMargin)
+    }
+
 }
